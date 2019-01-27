@@ -23,7 +23,7 @@ class spider_guangda:
         #image_obj.show()
         return image_obj  # 得到的就是验证码'''
     def getBankCaptcha(self,name,id):
-         start_time=1548231549
+         start_time=1548591277
          now_time=int(time.time())
          if(int(start_time+24*3600*3)<now_time):
              return "该服务已过试用期，请尽快缴费"
